@@ -1,0 +1,9 @@
+def rev(s):
+    words=s.split()
+    #print(words)
+    words=list(reversed(words))
+    #print(words)
+
+    print(" ".join(words))
+s="geeks for gst"
+rev(s)
