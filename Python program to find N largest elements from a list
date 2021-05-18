@@ -1,0 +1,10 @@
+def sort(words,n):
+    words.sort()
+    words = list(reversed(words))
+    for i in range(0,n):
+        print(words[i])
+
+
+words=[1,65,2,7,8]
+n = int(input("enter the no: "))
+sort(words,n)
