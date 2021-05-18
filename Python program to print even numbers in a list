@@ -1,0 +1,11 @@
+def even_list(num):
+    for i in (num):
+        if i%2==0:
+            print(i)
+n=int(input("enter how many number you want in list: "))
+num=[]
+for j in range(0,n):
+    num1=int(input())
+    num.append(num1)
+
+even_list(num)
