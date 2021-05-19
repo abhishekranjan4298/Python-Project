@@ -1,0 +1,12 @@
+def char_match(str1,str2):
+    count=0
+    for i in (str1):
+        for j in (str2):
+            if i==j:
+                count=count+1
+                break
+            
+    return count
+str1="abcd3a"
+str2="abcd"
+print(char_match(str1,str2))
