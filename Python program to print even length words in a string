@@ -1,0 +1,7 @@
+def change( char):
+    char=char.split()
+    for words in (char):
+        if len(words)%2==0:
+             print(words)
+char="geeks feor candya"
+change(char)
