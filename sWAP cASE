@@ -1,0 +1,6 @@
+def char(s):
+    new=[ch.lower() if ch.isupper() else ch.upper() for ch in s]
+    new=''.join(new)
+    return new
+s="Python"
+print(char(s))
