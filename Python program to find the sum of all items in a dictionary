@@ -1,0 +1,7 @@
+def add(dict):
+    value=0
+    for ele in dict:
+        value=value+dict[ele]
+    return value
+dict= { 'a':100, 'b':200, 'c':300 }
+print(add(dict))
