@@ -1,0 +1,5 @@
+def del_value(my_dict):
+    del my_dict['c']
+    print(my_dict)
+my_dict={ 'a':20,'b':34,'c':45}
+del_value(my_dict)
