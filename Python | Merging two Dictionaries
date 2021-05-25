@@ -1,0 +1,10 @@
+def Merge(Dict1,Dict2):
+    return Dict2.update(Dict1)
+
+
+
+
+Dict1={'a':3,'b':'gh','tre':8}
+Dict2={'q':4,4:4}
+Merge(Dict1,Dict2)
+print(Dict2)
