@@ -1,0 +1,6 @@
+def positive_no(List):
+    for i in (List):
+        if i>0:
+            print(i,end=" ")
+List=[1,5,-6,-3,4,-2]
+positive_no(List)
