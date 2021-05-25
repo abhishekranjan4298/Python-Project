@@ -1,0 +1,5 @@
+def read_file(str):
+    for word in (str):
+        print(word)
+str=input("enter string: ")
+read_file(str)
