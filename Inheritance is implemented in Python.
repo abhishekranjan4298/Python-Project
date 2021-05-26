@@ -1,0 +1,15 @@
+class employee(object):
+    def __init__(self,name):
+        self.name=name
+    def get_name(self):
+        return self.name
+    def isEmployee(self):
+        return False
+class emp(employee):
+    def isEmployee(self):
+        return True
+
+obj=employee("Rahkil")
+print(obj.get_name(),obj.isEmployee())
+obj1=emp("Ram")
+print(obj1.get_name(),obj1.isEmployee())
